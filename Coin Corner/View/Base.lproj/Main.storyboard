@@ -93,10 +93,15 @@
                             <constraint firstItem="ieA-g6-g8a" firstAttribute="leading" secondItem="znf-ei-aXx" secondAttribute="leading" id="yck-lY-4l7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bitcoinLabel" destination="2r9-ss-g9m" id="DBj-jT-JUD"/>
+                        <outlet property="currencyLabel" destination="Lai-kR-FfJ" id="d93-Y6-r37"/>
+                        <outlet property="currencyPicker" destination="C5g-zx-ber" id="M3Q-x5-GnA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TxH-wU-2K4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="118"/>
+            <point key="canvasLocation" x="-106" y="-122"/>
         </scene>
     </scenes>
     <resources>
